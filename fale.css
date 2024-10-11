@@ -1,0 +1,30 @@
+.card{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 450px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    background-color: bisque;
+    justify-content: center;
+   
+}
+
+input{
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 7.5em;
+  
+}
+
+button{
+    width: 258px;
+    margin-left: 7.5em;
+}
+label{
+    margin-left: 7.5em;
+}

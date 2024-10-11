@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo IMC</title>
+</head>
+<body>
+
+    <h1>Bem Vindo ao site de calculo IMC ( Índice de Massa Corporal)</h1>
+
+    <div class="user_card">
+
+        <h2 >Preencha as caixa de perguntas abaixo para saber seu IMC</h2>
+
+        <label class="label">Digite seu nome</label>
+        <input id="Nome" type="text" placeholder="Seu Nome">
+
+        <label class="label">Informe seu sexo biológico:
+            <br>
+        <input id="sexoMasculino" type="radio" >Masculino
+        <input type="radio" id="sexoFeminino">Feminino
+        </label>
+        
+
+
+        
+        <label class="label">Informe seu peso em Kg</label>
+        <input id="Peso" type="text" placeholder="EX:70Kg">
+
+        <label class="label">Informe sua altura</label>
+        <input id="Altura" type="text" placeholder="EX:1,70">
+
+        <button id="Calcular" onclick="IMC()"> >Calcular IMC</button>
+
+        <button><a href="faleConosco.html">fale Conosco</a></button>
+
+    </div>
+
+    
+    <p id="imcH"></p>
+
+    <p id="imcF"></p>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
